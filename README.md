@@ -2,6 +2,10 @@
 
 This is my version of the TrueCoders Your Own API project.
 
+## Setup
+
+After cloning the repository you will need to run yarn or npm install to install dependencies. After setting up the database and adding a .env file with the necessary values, you can use the dev script to start a server with nodemon or you can run the build script followed by the start script to run a production build.
+
 ## Database
 
 You will need to set up a MySQL schema named "dragonballz" with two tables named "characters" and "logs". The "characters" table will need columns named "ID", "Name", "HomePlanet", "Age", and "Gender". The "logs" table will need columns named "ID" and "Request". Set the ID column as an auto-incrementing primary key.

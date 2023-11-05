@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.0.0/uicons-bold-straight/css/uicons-bold-straight.css"
+    />
+    <script src="main.js" type="text/javascript" defer></script>
+    <script src="addCharacter.js" type="text/javascript" defer></script>
+    <title>Add a Character</title>
+  </head>
+  <body>
+    <header-component link-one="home" link-two="about"></header-component>
+    <main>
+      <h2>Add a Character</h2>
+      <form>
+        <fieldset>
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" max="45" required />
+        </fieldset>
+        <fieldset>
+          <label for="home-planet">Home Planet</label>
+          <input
+            type="text"
+            name="home-planet"
+            id="home-planet"
+            max="45"
+            required
+          />
+        </fieldset>
+        <fieldset>
+          <label for="age">Age</label>
+          <input type="number" name="age" id="age" required />
+        </fieldset>
+        <fieldset>
+          <label for="gender">Gender</label>
+          <input type="text" name="gender" id="gender" required />
+        </fieldset>
+        <button type="button">Submit</button>
+      </form>
+      <table id="characters"></table>
+    </main>
+    <footer-component></footer-component>
+  </body>
+</html>

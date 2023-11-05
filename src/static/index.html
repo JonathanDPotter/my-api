@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.0.0/uicons-brands/css/uicons-brands.css"
+    />
+    <script src="main.js" type="text/javascript" defer></script>
+    <script src="home.js" type="text/javascript" defer></script>
+    <title>MY API</title>
+  </head>
+  <body>
+    <header-component
+      link-one="about"
+      link-two="add-character"
+    ></header-component>
+    <main>
+      <section>
+        <h2>Welcome to My API</h2>
+        <p>This is my version of the TrueCoders Your Own API project.</p>
+        <p>
+          You will need to set up a MySQL schema named "dragonballz" with two
+          tables named "characters" and "logs". The "characters" table will need
+          columns named "ID", "Name", "HomePlanet", "Age", and "Gender". The
+          "logs" table will need columns named "ID" and "Request".
+        </p>
+        <p>
+          You will also need to provide a .env file in the root of the project
+          which contains the variables PORT, HOST, DB_HOST, DB_USER, DB_PASS,
+          DB_SCHEMA. These must be set to the appropriate values to access your
+          database (I had to set DB_HOST to "127.0.0.1" in order to access the
+          app on localhost but you may just use the same value as HOST).
+        </p>
+      </section>
+      <hr />
+      <section>
+        <h2>Routes</h2>
+        <p>
+          You can send a GET request to <a href="/routes">/routes</a> to get a
+          JSON object with a list of the available routes which are as follows:
+        </p>
+        <pre class="routes"></pre>
+      </section>
+      <hr />
+      <section>
+        <div class="links">
+          <a href="https://github.com/JonathanDPotter"
+            ><button type="button">
+              <i class="fi fi-brands-github"></i>See code on GitHub
+            </button></a
+          >
+        </div>
+      </section>
+    </main>
+    <footer-component></footer-component>
+  </body>
+</html>

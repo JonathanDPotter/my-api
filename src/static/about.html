@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" type="text/javascript" defer></script>
+  </head>
+  <body>
+    <header-component
+      link-one="home"
+      link-two="add-character"
+    ></header-component>
+    <main>
+      <h2>About</h2>
+      <div class="about">
+        <p>This application was built with Node, Express.js and TypeScript.</p>
+        <p>
+          The API routes follow a RESTful pattern, and the "/", "/about",
+          "/add-character" and "404" pages are built with vanilla JS, HTML, and
+          CSS.
+        </p>
+        <p>
+          The API connects to a local MySQL database to perform CRUD operations.
+        </p>
+      </div>
+    </main>
+    <footer-component></footer-component>
+  </body>
+</html>

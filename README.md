@@ -1,6 +1,8 @@
 # My API
 
 This is my version of the TrueCoders Your Own API project.
+A live depolyment of this app can be found [here](https://my-sql-test-f61b7899e43b.herokuapp.com/).
+The live deployment is of a slightly different repo as I was unable to get this one to deploy to heroku. That adjusted repo is [here](https://github.com/JonathanDPotter/sql-test)
 
 ## Setup
 
